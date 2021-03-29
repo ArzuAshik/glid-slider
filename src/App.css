@@ -9,6 +9,22 @@
   color: white;
 }
 
+.header{
+  display: flex;
+  align-items: center;
+}
+
+.header svg{
+  background:white;
+  border-radius: 8px;
+  padding: 10px 30px;
+  margin: 20px;
+}
+
+.header h1{
+  margin: 20px;
+}
+
 ul li{
   overflow: hidden;
 }
@@ -23,5 +39,5 @@ ul li img{
 }
 
 [disabled]{
-  color: red!important;
+  background: red!important;
 }
