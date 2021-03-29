@@ -21,3 +21,7 @@ ul li img{
 .glideSlideActive{
   border: 1px solid white;
 }
+
+[disabled]{
+  color: red!important;
+}
